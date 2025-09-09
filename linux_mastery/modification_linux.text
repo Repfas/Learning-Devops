@@ -1,0 +1,36 @@
+touch --> making new files. i can make multiple files onces 
+	touch <name_file1> <name_file2> ...
+mkdir --> make a new directory 
+cp --> copy file/directory.
+	example:
+	1. copy to new location 
+		cp <name_file> </new_location>
+	2. copy and rename 
+		cp <name_file> <rename_file>
+	3. copy directory:
+		a. -r --> basic for copy directory
+			cp -r </loc_dir> </new_dir>
+		b. -iv --> -i is for asking b4 overwriting 
+			   -v is for show me what are u doing
+mv --> move and rename file and directory
+rm --> remove file or directory
+	-r --> remove directory
+	-f --> force delete
+	-i --> interactive
+	-v --> verbose mode(what happend to it)
+cat --> seeing and read files
+less --> seeing and read files 
+head --> seeing and read files just a few first line (using -number)
+tail --> seeing and read files just a few last line(using -n)
+text processing 
+grep --> searching spesific things 
+	-i --> case insensitive
+	-c --> counting match
+wc --> counting lines and word character
+sort --> sort textline
+	-n --> numeric sorting
+cut --> remove section each line 
+	-d --> remove a character that want to remove
+	-f --> remove the field after remove the character 
+uniq --> detect adjencent duplicat
+'|' to connect 2 syntax

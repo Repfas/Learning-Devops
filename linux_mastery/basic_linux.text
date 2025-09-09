@@ -1,0 +1,10 @@
+pwd --> for navigating where u re
+ls --> for seeing content in directory
+	ls -la --> seeing full files including hidden files
+	ls -lh --> see format (size, permissions and date)
+cd --> change directoty 
+	cd <file/directory location> --> move to spesific location
+	cd .. -> move backward directiory based on path of directory
+	cd - --> move back based of historical do 
+file --> determine file type 
+stat --> display status(more complex dan seeing in ls)
