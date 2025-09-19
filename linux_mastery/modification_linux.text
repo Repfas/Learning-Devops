@@ -1,4 +1,4 @@
-touch --> making new files. i can make multiple files onces 
+touch --> making new files. can make multiple files onces 
 	touch <name_file1> <name_file2> ...
 mkdir --> make a new directory 
 cp --> copy file/directory.

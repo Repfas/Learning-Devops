@@ -1,0 +1,45 @@
+root --> Super'USER' that can change evreythings 
+     --> it needs a permssion to do a root mode such as a 
+	1. Change Permission(chmod) and ownership(chown)
+	2. bypass the restriction (such as rm - rf)
+	3. can install everything (sudo install)
+	4. control everything
+sudo --> Subtitude User Do
+     --> force doing something that permitted to execute
+File ownership --> every file and dict only have one user or one group
+      one owner--> it can operate a system by one owner only
+      group owner --> the system can handle by one group with a lot of users
+chown --> change ownership -->change user/group ownership of file/direct
+	syntax --> chown (to new owner):(group) file/directory
+	-r recrusive --> do something and everything inside 
+
+file permission 
+3 classes of users:
+a. Owner(u) --> user own the file 'rwx'
+b. Group(g) --> group own the file 'r-x'
+c. Others(o) --> all others of the system 'r--'
+3 permission granted:
+a. Read(r)--> for file can read a file, directory is listing (ls)
+b. Write(w) --> modifying or truncanting a file, create, delete,rename the directory
+c. execute(x) --> execute program or script, allow access(cd) the directory
+view permission --> ls -la  
+for file '-rwxrwxrwx'
+for directory 'drwxrwxrwx'
+
+change permission --> chmod permission to users for an access file or directory
+	syntax = chmod (u/g/o, +/-/=, r/w/x) filename
+	ex: chmod g+w a.py
+	means: change mode group add access write for a.py 
+so the meaning of 'drwxr-x-wx' is in the directory, the user can do everything(read,write and execute), the group can do read and execute
+and the others can do write and execute
+octal method:
+each digit sum value permission 
+r --> 4
+w --> 2
+x --> 1 
+so the meaning of 731 is the user can do wrx(4+2+1), the group can do -wx(2+1), and the others only execute 
+
+Default permission(umask) --> determine default permission for newly files or directories 
+base default --> files 666(-rw-rw-rw-) and directory 777 (drwxrwxrwx)
+umask mean default substract of permission for the first time when make a file or directory
+
