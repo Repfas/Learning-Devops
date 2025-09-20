@@ -11,7 +11,7 @@ File ownership --> every file and dict only have one user or one group
       group owner --> the system can handle by one group with a lot of users
 chown --> change ownership -->change user/group ownership of file/direct
 	syntax --> chown (to new owner):(group) file/directory
-	-r recrusive --> do something and everything inside 
+	-R recrusive --> do something and everything inside 
 
 file permission 
 3 classes of users:
