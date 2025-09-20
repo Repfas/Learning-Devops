@@ -1,0 +1,22 @@
+there's a opener in every bash script called Shebang(!#). it's a bash interpreter (program who read and execute the file)
+
+echo --> display a text --> lookslike a print in python
+echo 10 --> would desplay 10 as strc
+
+how to run it: 
+bash file.sh 
+source file.sh 
+./file.sh 
+
+variable:
+var="" pr var=''
+dont use space after var and =
+
+read == input in python
+parameter in bash:
+
+$0 = for the file name
+$1 = 1st parameter
+$2 = 2nd parameter 
+.. 
+$# count of parameter 
