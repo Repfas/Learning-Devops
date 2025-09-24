@@ -1,9 +1,0 @@
-GIT 
-git is a VCS(Virtual Code system) --> the sytem that record everything change in file or dir. its allow to recall what todo before
-enable:
-a. historycal record --> knowing every record that change and why(cause of the massage of the record)
-b. collab --> everyone in team can change, know the record without overwriting the others
-c. backup & recovery --> it can recovery(see the previous work)
-d. branching and merging --> can work individualy and merged them to one project
-
-git config -->  

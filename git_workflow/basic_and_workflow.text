@@ -1,0 +1,52 @@
+GIT 
+git is a VCS(Virtual Code system) --> the sytem that record everything change in file or dir. its allow to recall what todo before
+enable:
+a. historycal record --> knowing every record that change and why(cause of the message of the record)
+b. collab --> everyone in team can change, know the record without overwriting the others
+c. backup & recovery --> it can recovery(see the previous work)
+d. branching and merging --> can work individualy and merged them to one project
+
+git config -->  configuration the identity. 
+git workflow 
+
+working directory --> the dir that i modified
+staging area --> the place before commit and after add file --> to preview the file after add
+repository --> place after commit the file 
+
+Step how to use git :
+1. git init --> initialize empty git repo in directory
+syntax: git init 
+2. git status --> show the state of file changes.  it gonna be tells about modified, staged or untracked 
+syntax git status
+    ex : Your branch is ahead of 'origin/main' by 1 commit.
+        (use "git push" to publish your local commits)
+
+        Changes to be committed:
+        (use "git restore --staged <file>..." to unstage)
+                modified:   git_workflow/theory.text
+
+3. git add -->  add file to the staging area
+syntax : git add <name file> or git add . (for all files)
+4. git commit --> stores the file to repository
+syntax --> git commit -m "message" 
+5. git log --> to display the commit history and current branch 
+syntax : git log <optional> --oneline(one line per commit) --graph(show graph)
+
+
+Remote workflow
+1. git clone --> to clone(copy) remote repository to local repository --> its remote + pull 
+syntax: git clone <git_website>
+2. git remote --> to manage local to remote repository
+syntax : 
+git remote -v >>> for seeing the remote in dir
+git remote set-url origin <git url remote> --> for initiate remote 
+
+3. git push --> for uploading the repository local to remore 
+syntax:
+git push --> push it no matter what happend, it gonna be push even though the remote dont have
+            a branch. its automaticly create the branch 
+git push -u origin main --> initial setup push 
+
+4. git pull -->  download it and automaticly merged (remote to local)
+
+5. git fetch --> download without merged it
