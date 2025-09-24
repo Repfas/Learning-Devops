@@ -20,3 +20,19 @@ $1 = 1st parameter
 $2 = 2nd parameter 
 .. 
 $# count of parameter 
+
+for the arithmetic is using an variable like $((operation))
+likes a = $((a+b))
+
+arithmetic operation 
++ add 
+- mines
+/ devided
+* multiplication 
+% modulo 
+** exponensial
+
+
+IF ELSE
+
+[]
