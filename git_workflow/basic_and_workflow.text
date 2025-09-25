@@ -30,7 +30,8 @@ syntax : git add <name file> or git add . (for all files)
 4. git commit --> stores the file to repository
 syntax --> git commit -m "message" 
 5. git log --> to display the commit history and current branch 
-syntax : git log <optional> --oneline(one line per commit) --graph(show graph)
+syntax : git log <optional> --oneline(one line per commit) --graph(show graph) 
+git log --all --decorate --oneline --graph --> for simple one
 
 
 Remote workflow
@@ -50,3 +51,9 @@ git push -u origin main --> initial setup push
 4. git pull -->  download it and automaticly merged (remote to local)
 
 5. git fetch --> download without merged it
+
+
+2 type workflow:
+a. gitflow --> long lived branch --> the dev's work at branch based on fiture and enviroment 
+b. Trunk-Based Dev --> short lived branch --> dev will work at different branch and merge it once while it's done
+

@@ -1,0 +1,11 @@
+in one repo, there's a lot of branch 
+branch --> a several user that can do everything on file with different features or version
+syntax = 
+git branch --> to see a several branch that active on repository
+--||-- -a local + remote branch 
+git branch <new_name_branch> --> to create a new branch
+git branch -d --> delete branch 
+
+git merge --> merge 2 branch 
+if wanna merge, switch branch to the main first and then merged it
+syntax = git merge <branch-name-merge>
