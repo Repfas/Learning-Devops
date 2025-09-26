@@ -1,0 +1,8 @@
+How to undo the commit?
+1. git log--> see the git log and find the commit_id ex: <f5145cb>
+2. git commit <commit_id> 
+if want to back just git commit <commit_id_newest>
+
+git reset --> back to commit u want but delete after 
+
+git revert --> back to commit you want and make it as the newest things 
