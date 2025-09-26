@@ -1,4 +1,5 @@
 def math_problem(a,b):
+    '''This function is for experimental calculation'''
     equation = (a + b)**2/a**2
     if equation > 15 :
         return f'the result is {equation}. its to complex'
@@ -7,7 +8,6 @@ def math_problem(a,b):
     elif equation >=1:
         return f'the result is {equation}. good result'
     elif equation <1 and equation>0:
-        return f'the result is {equation}. its too small'
     else:
         return f'wrong result. please do experimental again'
     
