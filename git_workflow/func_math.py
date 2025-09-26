@@ -8,6 +8,7 @@ def math_problem(a,b):
     elif equation >=1:
         return f'the result is {equation}. good result'
     elif equation <1 and equation>0:
+        return f'the result is {equation}. good result'
     else:
         return f'wrong result. please do experimental again'
     

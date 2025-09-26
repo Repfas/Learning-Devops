@@ -1,0 +1,10 @@
+Git tag --> to tag an important point --> like a bookmarks 
+ex tag = v1.2.3 --> vmajor.minor.path
+2 type of git tag:
+a. lightweight tag(using a simple tag)
+	git tag version(v1.1.0)
+b. annoted tag (a complete tag) 
+	git tag -a <version> -m "message"
+
+how to see the tag 
+git tag 
